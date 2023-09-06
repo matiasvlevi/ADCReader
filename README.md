@@ -1,5 +1,7 @@
 # ADCReader utility
 
+Allows you to interface in a friendly way with the ADC of an avr microcontroller
+
 ```c
 int main(void) {
 
@@ -19,5 +21,6 @@ int main(void) {
         // do something
     };
 }
-
 ```
+
+> Documentation is provided in `ADCHeader.h`
