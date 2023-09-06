@@ -1,6 +1,8 @@
 # ADCReader utility
 
-Allows you to interface in a friendly way with the ADC of an avr microcontroller
+Allows you to interface in a friendly way with the ADC of an avr microcontroller.
+
+Not all features from the datasheet have a wrapper.
 
 ```c
 int main(void) {
