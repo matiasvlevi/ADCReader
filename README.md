@@ -5,6 +5,8 @@ Allows you to interface in a friendly way with the ADC of an avr microcontroller
 > Not all features from the datasheet have a wrapper.
 
 ```c
+#include "ADCReader.h"
+
 int main(void) {
 
     ADCReader reader;
@@ -25,4 +27,4 @@ int main(void) {
 }
 ```
 
-> Documentation is provided in `ADCHeader.h`
+> Documentation is provided in `ADCReader.h`
